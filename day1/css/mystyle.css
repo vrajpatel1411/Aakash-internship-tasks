@@ -1,0 +1,14 @@
+td{
+    width:100px;
+    height:100px;
+}
+form  { display: table;  }
+form{
+    text-align: center; 
+}
+h1{
+    align-items: center;
+}
+p     { display: table-row;  }
+label { display: table-cell; padding: 10px;}
+input { display: table-cell; padding: 10px;}
