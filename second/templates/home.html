@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content1 %}
+<form method="post" action="/about">
+{% csrf_token %}
+            <label for="name">Name</label>
+            <input type="text" id="name" name="na">
+            <button>submit</button>
+			
+            </form>
+            <p><b>For sum</b></p>
+            <form method="post" action="/contact">
+            {% csrf_token %}
+            <label for="n">No1</label>
+            <input type="text" id="n" name="n">
+            <br>
+            <label for="no">No2</label>
+            <input type="text" id="no" name="no">
+            <br>
+            <button>submit</button>
+			
+            </form>
+{% endblock %}
+
