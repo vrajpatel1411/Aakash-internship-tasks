@@ -12,3 +12,5 @@ Day 4 folder consist of day 4 task
 myfirst consist of basic django project
 
 second consist of django session 3 and 4
+
+todo is a mini project based on django ,html,css 
